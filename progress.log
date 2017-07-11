@@ -1,0 +1,17 @@
+[2017-07-11 14:09:05] START
+[2017-07-11 14:09:05] CREATE compras/compra.html: 0
+[2017-07-11 14:10:01] EDIT practica2/views/compras/compra.html: 9
+[2017-07-11 14:10:10] EDIT practica2/views/compras/compra.html: 0
+[2017-07-11 14:12:29] CREATE compras/compraproveedores.html: 0
+[2017-07-11 14:16:42] EDIT practica2/views/compras/compraproveedores.html: 41
+[2017-07-11 14:18:02] CREATE compra.py: 0
+[2017-07-11 14:18:23] EDIT practica2/controllers/compra.py: 2
+[2017-07-11 14:18:51] CREATE compras.py: 0
+[2017-07-11 14:19:01] EDIT practica2/controllers/compras.py: 2
+[2017-07-11 14:19:06] EDIT practica2/controllers/compras.py: 0
+[2017-07-11 14:27:32] EDIT practica2/views/compras/compra.html: 0
+[2017-07-11 14:28:00] EDIT practica2/views/compras/compra.html: -1
+[2017-07-11 14:28:31] EDIT practica2/views/compras/compra.html: -9
+[2017-07-11 14:29:30] EDIT practica2/views/compras/compraproveedores.html: -41
+[2017-07-11 14:30:57] DELETE practica2/views/compras/compraproveedores.html: -3
+[2017-07-11 14:32:46] CREATE compra/ComprasProveedores.html: 0

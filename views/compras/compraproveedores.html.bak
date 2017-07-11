@@ -1,0 +1,59 @@
+{{extend 'layout.html'}}
+<h1>This is the compras/compraproveedores.html template</h1>
+{{=BEAUTIFY(response._vars)}}
+
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+    <h1>
+    Planilla de Proveedores
+</h1>
+<div class="col-sm-offset-0 col-sm-12">
+<form class="form-horizontal">
+
+
+   <div class="form-group">
+    <label for="inputEmail3" class="col-sm-1 control-label">Nombre empresa</label>
+    <div class="col-sm-6"> 
+        <input type="email" class="form-control" id="autocomplete2" value= Ravoner> <!--placeholder="KP00F001"-->
+   <script>
+$( "#autocomplete2" ).autocomplete({
+  source: [ "Perfumol", "Pfragancias", "Perfumin", "Perfuya", " ", "Perfumadin", "Pimienta " ]
+});
+   </script>
+        
+ </div>
+    </div>
+
+   <div class="form-group">
+    <label for="inputEmail3" class="col-sm-1 control-label">N°Remito</label> 
+       <div class="col-sm-6">
+      <input type="email" class="form-control" id="inputEmail3" value = 4567 > <!--placeholder=""-->
+ </div>
+    </div>
+
+ <div class="form-group">
+    <label for="inputEmail3" class="col-sm-1 control-label">Fecha</label> 
+       <div class="col-sm-6">
+      <input type="email" class="form-control" id="inputEmail3" value= 17/6/2017> <!-- placeholder="EDT"-->
+ </div>
+    </div>   
+  
+ 
+ <td><a type="cargar" href="{{=URL(c="altas",f="alta_proveedor")}}"  class="btn btn-primary" >Alta proveedor  <i <span class="glyphicon glyphicon-plus-sign"></span> </i></a> </td>
+    
+ <td><a type="cargar" href="{{=URL(c="compras",f="ComprasProveedoresProducto")}}"  class="btn btn-primary" >Agregar productos  <i <span class="glyphicon glyphicon-list-alt"></span> </i></a> </td>
+       
+
+    
+    
+</form>
+     </div>
+</body>
